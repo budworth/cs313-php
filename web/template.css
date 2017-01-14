@@ -1,3 +1,7 @@
 body {
-	background-image: url("http://www.dragonartz.net/wp-content/uploads/2009/10/vector-tech-background-09-by-dragonart.jpg");
+	background-color: blue;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
