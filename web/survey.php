@@ -1,4 +1,11 @@
 <?php include 'header.php'; ?>
+<!-- Welcome -->
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Survey<h1>
+		</div>
+	</div>
+	
 	<div class="container">
 		<form class="questions" action="survey.php" name="survey" method="POST">
 			Who would win in a fight?
@@ -14,7 +21,7 @@
 				<li><input type="radio" name="person" value="Vulcan">Vulcan</li>
 			</ul>
 			
-			Guess.
+			Guess: Heads or Tails?
 			<ul class="questionList">
 				<li><input type="radio" name="guess" value="Heads">Heads</li>
 				<li><input type="radio" name="guess" value="Tails">Tails</li>
@@ -24,9 +31,11 @@
 				<li><input type="radio" name="starTrek" value="original">Star Trek: The Original Series</li>
 				<li><input type="radio" name="starTrek" value="generation">Star Trek: The Next Generation</li>
 				<li><input type="radio" name="starTrek" value="ds9">Star Trek: Deep Space Nine</li>
-				<li><input type="radio" name="starTrek" value="Voyager">Star Trek: Voyager</li>
+				<li><input type="radio" name="starTrek" value="voyager">Star Trek: Voyager</li>
+				<li><input type="radio" name="starTrek" value="pony">My Little Pony Fan Fiction</li>
 			</ul>
 			<br>
+			<input type="Submit">
 				
 		</form>
 		</div>
