@@ -1,5 +1,4 @@
-<div class="container">
-	<div class="panel-footer">Created by Bud Wortham</div>
-</div>
+<div class="panel-footer">Created by Bud Wortham</div>
+
 </body>
 </html>
