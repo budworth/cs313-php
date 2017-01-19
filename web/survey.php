@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<div class="container information">
 		<form class="questions" action="survey.php" name="survey" method="POST">
 			Who would win in a fight?
 			<ul class="questionList">
