@@ -45,10 +45,3 @@ img.temple {
 .questionList {
 	list-style-type: none;
 }
-
-.panel-footer {
-	position: fixed;
-	z-index: 100;
-	left: 0;
-	width: 100%;
-}
