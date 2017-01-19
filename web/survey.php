@@ -7,7 +7,7 @@
 	</div>
 	
 	<div class="container information">
-		<form class="questions" action="survey.php" name="survey" method="POST">
+		<form class="questions" action="surveyResults.php" name="survey" method="POST">
 			Who would win in a fight?
 			<ul class="questionList">
 				<li><input type="radio" name="fight" value="taco">Tacor</li>
