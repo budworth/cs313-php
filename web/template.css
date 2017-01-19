@@ -39,5 +39,9 @@ img.temple {
 
 .questions {
 	padding: 50px 30px 50px 80px;
+	
+}
+
+.questionList {
 	list-style-type: none;
 }
