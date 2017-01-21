@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include 'header.php'; ?>
 <!-- Welcome -->
 	<div class="container">
@@ -10,7 +11,7 @@
 		<form class="questions" action="surveyResults.php" name="survey" method="POST">
 			Who would win in a fight?
 			<ul class="questionList">
-				<li><input type="radio" name="fight" value="taco">Tacor</li>
+				<li><input type="radio" name="fight" value="taco">Taco</li>
 				<li><input type="radio" name="fight" value="grilled cheese">Grilled Cheese</li>
 			</ul>
 			
