@@ -26,21 +26,21 @@
 	} else if ($_POST["person"] == "cat") {
 		$person = "You have chosen cat. I am sorry to inform you that you are wrong.";
 	} else {
-		$person = "Vulcan, that is the logical choice."
+		$person = "Vulcan, that is the logical choice.";
 	}
 	
 	//Coin Toss
 	if ($_POST["guess"] == "heads") {
 		if(mt_rand(0,1) == 0) {
-			$guess = "Heads, You Win!"
+			$guess = "Heads, You Win!";
 		} else {
-			$guess = "Tails, You Lose!"
+			$guess = "Tails, You Lose!";
 		}
 	} else{
 		if(mt_rand(0,1) == 1) {
-			$guess = "Tails, You Win!"
+			$guess = "Tails, You Win!";
 		} else {
-			$guess = "Heads, You Lose!"
+			$guess = "Heads, You Lose!";
 		}
 	}
 	
