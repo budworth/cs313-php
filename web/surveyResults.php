@@ -11,10 +11,10 @@
 <div class ="container information">
 <?php 
 
-echo $_SESSION["fight"];
-echo $_SESSION["person"]; 
-echo $_SESSION["guess"];
-echo $_SESSION["starTrek"];
+echo $_POST["fight"];
+echo $_POST["person"]; 
+echo $_POST["guess"];
+echo $_POST["starTrek"];
 
 
 ?>
