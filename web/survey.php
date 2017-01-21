@@ -11,8 +11,8 @@
 		<form class="questions" action="surveyResults.php" method="POST">
 			Who would win in a fight?
 			<ul class="questionList">
-				<li><input type="radio" name="fight" value="taco">Taco</li>
-				<li><input type="radio" name="fight" value="grilled cheese">Grilled Cheese</li>
+				<li><input type="radio" name="fight" value="tc">Taco</li>
+				<li><input type="radio" name="fight" value="gc">Grilled Cheese</li>
 			</ul>
 			
 			What kind of person are you?
@@ -29,11 +29,11 @@
 			</ul>
 			Which one is the best?
 			<ul class="questionList">
-				<li><input type="radio" name="starTrek" value="original">Star Trek: The Original Series</li>
-				<li><input type="radio" name="starTrek" value="generation">Star Trek: The Next Generation</li>
-				<li><input type="radio" name="starTrek" value="ds9">Star Trek: Deep Space Nine</li>
-				<li><input type="radio" name="starTrek" value="voyager">Star Trek: Voyager</li>
-				<li><input type="radio" name="starTrek" value="pony">My Little Pony Fan Fiction</li>
+				<li><input type="radio" name="starTrek" value="or">Star Trek: The Original Series</li>
+				<li><input type="radio" name="starTrek" value="gn">Star Trek: The Next Generation</li>
+				<li><input type="radio" name="starTrek" value="ds">Star Trek: Deep Space Nine</li>
+				<li><input type="radio" name="starTrek" value="vy">Star Trek: Voyager</li>
+				<li><input type="radio" name="starTrek" value="py">My Little Pony Fan Fiction</li>
 			</ul>
 			<br>
 			<input type="Submit">
