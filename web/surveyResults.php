@@ -75,7 +75,7 @@
 		echo $person;
 		echo "<br>";
 		echo $guess;
-		echo "<br>"
+		echo "<br>";
 		echo $starTrek;
 	?>
 	
