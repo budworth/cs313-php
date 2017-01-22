@@ -12,7 +12,7 @@
 <?php
 	//Variable defined
 	$fight = $person = $guess = $starTrek = "";
-
+	
 	//For the Fight Question
 	if ($_POST["fight"] == "tc") {
 		$fight = "Tacos are spicy. I see your point.";
@@ -65,7 +65,6 @@
 }
 
 ?>	
-	
 
 <!-- Results -->
 <div class ="container information">
@@ -79,6 +78,7 @@
 		echo "<br>"
 		echo $starTrek;
 	?>
+	
 	</div>
 </div>
 
