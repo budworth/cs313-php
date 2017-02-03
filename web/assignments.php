@@ -12,8 +12,8 @@
 			<li>Week 01</li>
 			<li>Week 02</li>
 			<li><a href="survey.php">Week 03: Survey Assignment</a></li>
-            <li><a href="dbConnect.php">Week 04: Database</a></li>
-			<li><a href="dbConnect.php">Week 05: Database</a></li>
+            <li><a href="testDB.php">Week 04: Database</a></li>
+			<li><a href="testDB.php">Week 05: Database</a></li>
 			<li>Week 06</li>
 			<li>Week 07</li>
 			<li>Week 08</li>
