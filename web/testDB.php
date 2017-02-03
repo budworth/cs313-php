@@ -11,7 +11,7 @@
 
     <?php
 
-        $statement = $db->prepare("SELECT * FROM Monster");
+        $statement = $db->prepare("SELECT monster_name FROM Monster");
         $statement->execute();
         // Go through each result
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
