@@ -18,7 +18,7 @@
         $db = pg_connect('host=ec2-54-243-253-17.compute-1.amazonaws.com dbname=dc3qo0omk1t54q user=nhdhvzjtzgcbvw
  password=31eefdffa2448f164d09f84d772dc775724c18004b049ef92b42400f9f7762bd');
 
-        $query = "SELECT * FROM Monster"; 
+        $query = "SELECT * FROM public.Monster"; 
 
         $result = pg_query($query); 
         if (!$result) { 
