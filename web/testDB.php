@@ -4,24 +4,22 @@
         <table border="0" cellspacing="0" cellpadding="0"> 
             <tr> 
                 <td> 
-                    Friend ID 
+                    Monster 
                 </td> 
                 <td> 
-                    First Name 
+                    Class 
                 </td> 
                 <td> 
-                    Surname 
+                    Description 
                 </td> 
-                <td> 
-                    Email Address 
-                </td> 
+                
             </tr> 
     <?php 
-        $db = pg_connect('host=ec2-54-243-253-17.compute-1.amazonaws.com dbname=dc3qo0omk1t54q user=nhdhvzjtzgcbvw password=31eefdffa2448f164d09f84d772dc775724c18004b049ef92b42400f9f7762bd');
+        $db = pg_connect("host=ec2-54-243-253-17.compute-1.amazonaws.com dbname=dc3qo0omk1t54q user=nhdhvzjtzgcbvw password=31eefdffa2448f164d09f84d772dc775724c18004b049ef92b42400f9f7762bd");
 
         $query = "SELECT * FROM Monster"; 
 
-        $result = pg_query($query); 
+        $result = pg_query($db, $query); 
         if (!$result) { 
             echo "Problem with query " . $query . "<br/>"; 
             echo pg_last_error(); 
@@ -29,7 +27,7 @@
         } 
 
         while($myrow = pg_fetch_assoc($result)) { 
-            printf ("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>", htmlspecialchars($myrow['monster_name']), htmlspecialchars($myrow['class_id']), htmlspecialchars($myrow['monster_description']));
+            printf ("<tr><td>%s</td><td>%s</td><td>%s</td></tr>", htmlspecialchars($myrow['monster_name']), htmlspecialchars($myrow['class_id']), htmlspecialchars($myrow['monster_description']));
         } 
     ?> 
         </table> 
