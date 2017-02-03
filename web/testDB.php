@@ -1,7 +1,10 @@
-<?php 
-    
+<?php    
     include 'header.php';
     require 'dbConnect.php';
+?>
+
+<h1>Test</h1>
+<?php
 
     $db = get_db();
 
@@ -14,9 +17,9 @@
 	   // row, and we can access the different values based on their
 	   // name
 	   echo '<p>';
-	   echo '<strong>' . $row['monster'];
+	   echo '<strong>' . $row['monster_name'];
     }
 
-    include 'footer';
 ?>
 
+<?php include 'footer.php'?>
