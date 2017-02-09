@@ -1,8 +1,8 @@
 <?php include 'header.php';
-    require 'dbConnect.php';
+    //require 'dbConnect.php';
 ?>
 
-<div class='container'>
+/*<div class='container'>
 
 <h1>Enter New Monster</h1>
 
@@ -44,6 +44,6 @@
 
 	<label>Topics:</label><br />
 
-</div>
+</div>*/
 
 <?php include 'footer.php;' ?>
