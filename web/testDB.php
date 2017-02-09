@@ -1,5 +1,5 @@
 <?php include 'header.php'; 
-       require 'dbConnect.php';
+    require 'dbConnect.php';
 ?>
 
 <div class="container">
