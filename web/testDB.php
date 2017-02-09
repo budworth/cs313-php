@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+       require 'dbConnect.php';
+?>
 
 <div class="container">
         <table border="0" cellspacing="0" cellpadding="0"> 
