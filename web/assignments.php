@@ -13,8 +13,8 @@
 			<li>Week 02</li>
 			<li><a href="survey.php">Week 03: Survey Assignment</a></li>
             <li><a href="testDB.php">Week 04: Database</a></li>
-			<li><a href="testDB.php">Week 05: Database</a></li>
-			<li>Week 06</li>
+			<li><a href="testDB.php">Week 05: Database Display</a></li>
+            <li><a href="monsterInput.php">Database Form</a></li>
 			<li>Week 07</li>
 			<li>Week 08</li>
 			<li>Week 09</li>
