@@ -1,4 +1,4 @@
-<?php require 'header.php';
+<?php include 'header.php';
     require 'dbConnect.php';
 ?>
 
@@ -46,4 +46,4 @@
 
 </div>
 
-<?php require 'footer.php;' ?>
+<?php include 'footer.php;' ?>
