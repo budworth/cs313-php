@@ -11,11 +11,14 @@
         <br><br>
     
         <select name="class">
-            while($myrow = pg_fetch_assoc($result)){
-            echo <<<END
-            <option value="$myrow['monster_name']">$myrow['monster_name']</option>
-            END;
-        }
+        <?php
+            $query ='SELECT * FROM monster';
+            
+            while($myrow = pg_fetch_assoc($result))
+            {
+                echo '<option value="$myrow['monster_name']">$myrow['monster_name']</option>';
+            }
+        ?>
         </select>
     </form>
     
