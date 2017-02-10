@@ -12,7 +12,7 @@
     
         <select name="class">
             while($myrow = pg_fetch_assoc($result)){
-        echo '<option value="$myrow['monster_name']"> . $myrow['monster_name'];
+        echo '<option value="{$myrow['monster_name']}"'> . $myrow['monster_name'];
         }
         </select>
     </form>
