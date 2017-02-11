@@ -16,11 +16,8 @@
             
             while($myrow = pg_fetch_assoc($result))
             {
-                echo <<<END
-                    <option value="{$myrow['monster_name']}">
-                    {$myrow['monster_name']}</option>
-                    END;
-            };
+               printf ("<option value=\"%s\">%s</option>", htmlspecialchars($myrow['monster_name']), htmlspecialchars($myrow['monster_name']));
+            }
         ?>
         </select>
     </form>
