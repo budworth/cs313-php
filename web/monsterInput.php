@@ -4,7 +4,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-4"><h1>Monster Information</h1></div>
-		<div class="col-sm-8"><h1>MOnster Stats</h1></div>
+		<div class="col-sm-8"><h1>Monster Stats</h1></div>
 	</div>
  
     
@@ -83,8 +83,12 @@
         <input type="number" name="cha"></input>
         <br><br>
 		</div>
-    
+ 
 		</div>
+		
+		<input type="reset"></input><br><br>
+		<input type="submit"></input>
+		
     </form>
     
 </div>
