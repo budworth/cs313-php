@@ -2,7 +2,11 @@
 <?php include 'dbConnect.php'; ?>
 
 <div class="container">
-    <h1>Insert Monster</h1>
+	<div class="row">
+		<div class="col-sm-4"><h1>Monster Information</h1></div>
+		<div class="col-sm-8"><h1>MOnster Stats</h1></div>
+	</div>
+ 
     
     <form id="monsterForm" action="insertMonster.php" method="POST">
 	 <div class="row">
