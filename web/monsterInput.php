@@ -58,8 +58,8 @@
         </select>
 		<br><br>
 		
-		<label for="monster_description">Monster Descrtiption</label>
-        <input type="text" name="monster_description"></input>
+		<label for="monster_description">Monster Descrtiption</label><br>
+        <textarea type="text" name="monster_description"></textarea>
         <br><br>
 		</div>
 		
