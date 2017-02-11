@@ -56,6 +56,7 @@
             }
         ?>
         </select>
+		<br><br>
 		
 		<label for="monster_description">Monster Descrtiption</label>
         <input type="text" name="monster_description"></input>
