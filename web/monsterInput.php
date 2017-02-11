@@ -10,6 +10,31 @@
         <input type="text" name="monster_name"></input>
         <br><br>
 		
+		<label for="class">Monster Class</label>
+        <select name="class">
+        <?php
+            $query ='SELECT * FROM class';
+			
+			 $result = pg_query($query); 
+			 
+			if (!$result) { 
+				echo "Problem with query " . $query . "<br/>"; 
+				echo pg_last_error(); 
+				exit(); 
+			}
+            
+            while($myrow = pg_fetch_assoc($result))
+            {
+               printf ("<option value=\"%s\">%s</option>", htmlspecialchars($myrow['monster_class']), htmlspecialchars($myrow['monster_class']));
+            }
+        ?>
+        </select>
+		<br><br>
+		
+		<label for="monster_description">Monster Descrtiption</label>
+        <input type="text" name="monster_description"></input>
+        <br><br>
+		
 		<label for="hp">Monster HP</label>
         <input type="number" name="hp"></input>
         <br><br>
@@ -50,26 +75,7 @@
         <input type="number" name="cha"></input>
         <br><br>
     
-		<label for="class">Monster Class</label>
-        <select name="class">
-        <?php
-            $query ='SELECT * FROM class';
-			
-			 $result = pg_query($query); 
-			 
-			if (!$result) { 
-				echo "Problem with query " . $query . "<br/>"; 
-				echo pg_last_error(); 
-				exit(); 
-			}
-            
-            while($myrow = pg_fetch_assoc($result))
-            {
-               printf ("<option value=\"%s\">%s</option>", htmlspecialchars($myrow['monster_class']), htmlspecialchars($myrow['monster_class']));
-            }
-        ?>
-        </select>
-		<br><br>
+		
     </form>
     
 </div>
