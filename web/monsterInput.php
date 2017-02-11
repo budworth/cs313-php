@@ -5,7 +5,9 @@
     <h1>Insert Monster</h1>
     
     <form id="monsterForm" action="insertMonster.php" method="POST">
-    
+	 <div class="row">
+	  <div class="col-sm-4">
+	  
         <label for="monster_name">Monster Name</label>
         <input type="text" name="monster_name"></input>
         <br><br>
@@ -34,7 +36,9 @@
 		<label for="monster_description">Monster Descrtiption</label>
         <input type="text" name="monster_description"></input>
         <br><br>
+		</div>
 		
+		<div class="col-sm-8">
 		<label for="hp">Monster HP</label>
         <input type="number" name="hp"></input>
         <br><br>
@@ -74,8 +78,9 @@
 		<label for="cha">Monster Charisma</label>
         <input type="number" name="cha"></input>
         <br><br>
+		</div>
     
-		
+		</div>
     </form>
     
 </div>
