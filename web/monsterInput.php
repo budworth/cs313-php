@@ -13,6 +13,14 @@
         <select name="class">
         <?php
             $query ='SELECT * FROM monster';
+			
+			 $result = pg_query($query); 
+			 
+			if (!$result) { 
+				echo "Problem with query " . $query . "<br/>"; 
+				echo pg_last_error(); 
+				exit(); 
+			}
             
             while($myrow = pg_fetch_assoc($result))
             {
