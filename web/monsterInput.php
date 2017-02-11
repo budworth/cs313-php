@@ -37,6 +37,26 @@
         </select>
 		<br><br>
 		
+		<label for="size">Monster Size</label>
+        <select name="size">
+        <?php
+            $query ='SELECT * FROM size';
+			
+			 $result = pg_query($query); 
+			 
+			if (!$result) { 
+				echo "Problem with query " . $query . "<br/>"; 
+				echo pg_last_error(); 
+				exit(); 
+			}
+            
+            while($myrow = pg_fetch_assoc($result))
+            {
+               printf ("<option value=\"%s\">%s</option>", htmlspecialchars($myrow['size_category']), htmlspecialchars($myrow['size_category']));
+            }
+        ?>
+        </select>
+		
 		<label for="monster_description">Monster Descrtiption</label>
         <input type="text" name="monster_description"></input>
         <br><br>
